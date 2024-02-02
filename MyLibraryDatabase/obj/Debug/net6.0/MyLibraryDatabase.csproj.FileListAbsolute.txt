@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.AssemblyInfo.cs
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\bin\Debug\net6.0\MyLibraryDatabase.deps.json
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\bin\Debug\net6.0\MyLibraryDatabase.runtimeconfig.json
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\bin\Debug\net6.0\MyLibraryDatabase.dll
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\bin\Debug\net6.0\MyLibraryDatabase.pdb
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.dll
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\refint\MyLibraryDatabase.dll
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.pdb
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\MyLibraryDatabase.genruntimeconfig.cache
+C:\Users\user\source\repos\Dashboard\MyLibraryDatabase\obj\Debug\net6.0\ref\MyLibraryDatabase.dll

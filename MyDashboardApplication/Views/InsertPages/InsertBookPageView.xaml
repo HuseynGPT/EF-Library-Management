@@ -1,0 +1,48 @@
+﻿<Page x:Class="MyDashboardApplication.Views.InsertPages.InsertBookPageView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:MyDashboardApplication.Views.InsertPages"
+      mc:Ignorable="d"
+      Title="InsertBookPageView" Height="372" Width="592">
+
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Left" Margin="25,42,0,0" TextWrapping="Wrap" Text="Name&#x9;" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="86,38,0,0" TextWrapping="Wrap"  Text="{Binding Name}" VerticalAlignment="Top" Width="120"  />
+        <TextBlock HorizontalAlignment="Left" Margin="24,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Pages"/><LineBreak/><Run/></TextBlock>
+        <TextBox  Text="{Binding Pages}" x:Name="PagesTB" HorizontalAlignment="Left" Margin="86,83,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+        <TextBlock HorizontalAlignment="Left" Margin="25,130,0,0" TextWrapping="Wrap" Text="YearPress" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding YearPress}"  x:Name="YearPressTB" HorizontalAlignment="Left" Margin="86,126,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+        <TextBlock HorizontalAlignment="Left" Margin="24,171,0,0" TextWrapping="Wrap" Text="IdTheme" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding Id_Theme}"  x:Name="IdThemeTB" HorizontalAlignment="Left" Margin="86,167,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+        <TextBlock x:Name="___No_Name_" HorizontalAlignment="Left" Margin="20,212,0,0" TextWrapping="Wrap" Text="IdCategory" VerticalAlignment="Top"/>
+        <TextBox  Text="{Binding Id_Category}"  x:Name="IdCategoryTB" HorizontalAlignment="Left" Margin="86,208,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+        <TextBlock HorizontalAlignment="Left" Margin="24,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="IdAuthor"/>
+        <TextBox Text="{Binding Id_Author}"  x:Name="IdAuthorTB" HorizontalAlignment="Left" Margin="86,247,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+        <TextBlock HorizontalAlignment="Left" Margin="25,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="IdPress"/><LineBreak/><Run/></TextBlock>
+        <TextBox Text="{Binding Id_Press}"  x:Name="IdPressTB" HorizontalAlignment="Left" Margin="86,286,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+        <TextBlock HorizontalAlignment="Left" Margin="277,52,0,0" TextWrapping="Wrap" Text="Comment" VerticalAlignment="Top"/>
+        <TextBox  Text="{Binding Comment}" x:Name="CommentTB" HorizontalAlignment="Left" Margin="339,48,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+        <TextBlock HorizontalAlignment="Left" Margin="279,94,0,0" TextWrapping="Wrap" Text="Quantity" VerticalAlignment="Top"/>
+        <TextBox Text="{Binding Quantity}"  x:Name="QuantityTB" HorizontalAlignment="Left" Margin="339,89,0,0" TextWrapping="Wrap"   VerticalAlignment="Top" Width="120"  />
+
+
+
+
+
+
+            <Button
+    Style="{StaticResource MaterialDesignRaisedDarkButton}"
+    Height="50"
+                Content="Insert"
+                Width="150"
+    materialDesign:ButtonAssist.CornerRadius="25"
+    ToolTip="MaterialDesignRaisedDarkButton with Round Corners"
+    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Margin="302,212,140,110" Command="{Binding InsertCommand}">
+    
+            </Button>
+        
+    </Grid>
+</Page>
